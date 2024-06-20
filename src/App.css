@@ -1,0 +1,21 @@
+#sidebar-wrapper {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+
+.sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+.btn-hover:hover{
+  color: brown;
+  background-color: rgb(255, 222, 222);
+  border-radius: 50%;
+  padding: 12px;
+}
